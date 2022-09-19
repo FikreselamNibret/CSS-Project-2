@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000;
+}
+.left {
+  width: 50%;
+  float: left;
+}
+.right {
+  width: 50%;
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
+}
+/* header section */
+.top {
+  width: 100%;
+  background-color: white;
+}
+.header-width {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: lighter;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+}
+.header a:hover {
+  background-color: #ddd;
+}
+/* main section */
+.main {
+  width: 100%;
+  padding: 0 0 64px 0;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.section-2 {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.width-p-form {
+  width: 60%;
+  margin: 0 auto;
+}
+h2 {
+  text-transform: capitalize;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 0;
+  font-weight: 400;
+}
+p {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+}
+h3 {
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e91363;
+}
+h4 {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+}
+.form-width input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* picture section  */
+.div-image-2 {
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 64px 0 32px 0;
+}
+.div-image {
+  width: 100%;
+  margin: -4px 0;
+}
+/* form section */
+input {
+  padding: 8px;
+}
+.margin-ind {
+  margin: 16px 0;
+}
+label {
+  font: bold;
+}
+button {
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  background-color: #616161;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+/* footer section */
+.footer {
+  margin: 16px 0;
+}
+.footer a {
+  color: #000;
+}
+@media screen and (max-width: 600px) {
+  .full {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+}
